@@ -1,0 +1,35 @@
+# =========================
+# Visual Studio
+# =========================
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# =========================
+# Build results
+# =========================
+bin/
+obj/
+
+# =========================
+# .NET / Runtime artifacts
+# =========================
+*.dll
+*.exe
+*.pdb
+*.cache
+*.deps.json
+*.runtimeconfig.json
+
+# =========================
+# Test results
+# =========================
+TestResults/
+
+# =========================
+# Databases / VS
+# =========================
+*.sqlite
+*.db
