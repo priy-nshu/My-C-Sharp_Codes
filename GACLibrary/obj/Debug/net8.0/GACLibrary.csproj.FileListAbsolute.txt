@@ -1,0 +1,14 @@
+D:\Code\Visual Studio\GACLibrary\bin\Debug\net8.0\GACLibrary.exe
+D:\Code\Visual Studio\GACLibrary\bin\Debug\net8.0\GACLibrary.deps.json
+D:\Code\Visual Studio\GACLibrary\bin\Debug\net8.0\GACLibrary.runtimeconfig.json
+D:\Code\Visual Studio\GACLibrary\bin\Debug\net8.0\GACLibrary.dll
+D:\Code\Visual Studio\GACLibrary\bin\Debug\net8.0\GACLibrary.pdb
+D:\Code\Visual Studio\GACLibrary\obj\Debug\net8.0\GACLibrary.GeneratedMSBuildEditorConfig.editorconfig
+D:\Code\Visual Studio\GACLibrary\obj\Debug\net8.0\GACLibrary.AssemblyInfoInputs.cache
+D:\Code\Visual Studio\GACLibrary\obj\Debug\net8.0\GACLibrary.AssemblyInfo.cs
+D:\Code\Visual Studio\GACLibrary\obj\Debug\net8.0\GACLibrary.csproj.CoreCompileInputs.cache
+D:\Code\Visual Studio\GACLibrary\obj\Debug\net8.0\GACLibrary.dll
+D:\Code\Visual Studio\GACLibrary\obj\Debug\net8.0\refint\GACLibrary.dll
+D:\Code\Visual Studio\GACLibrary\obj\Debug\net8.0\GACLibrary.pdb
+D:\Code\Visual Studio\GACLibrary\obj\Debug\net8.0\GACLibrary.genruntimeconfig.cache
+D:\Code\Visual Studio\GACLibrary\obj\Debug\net8.0\ref\GACLibrary.dll

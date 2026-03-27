@@ -1,0 +1,147 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Code\\Visual Studio\\LinkConsole\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{085DB8B0-0D99-85D1-0B8E-93CA767BD15C}|LinkConsole.csproj|d:\\code\\visual studio\\linkconsole\\extentionmethods.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{085DB8B0-0D99-85D1-0B8E-93CA767BD15C}|LinkConsole.csproj|solutionrelative:extentionmethods.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{085DB8B0-0D99-85D1-0B8E-93CA767BD15C}|LinkConsole.csproj|d:\\code\\visual studio\\linkconsole\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{085DB8B0-0D99-85D1-0B8E-93CA767BD15C}|LinkConsole.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{085DB8B0-0D99-85D1-0B8E-93CA767BD15C}|LinkConsole.csproj|d:\\code\\visual studio\\linkconsole\\morelinqfunctions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{085DB8B0-0D99-85D1-0B8E-93CA767BD15C}|LinkConsole.csproj|solutionrelative:morelinqfunctions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{085DB8B0-0D99-85D1-0B8E-93CA767BD15C}|LinkConsole.csproj|d:\\code\\visual studio\\linkconsole\\joinfunctions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{085DB8B0-0D99-85D1-0B8E-93CA767BD15C}|LinkConsole.csproj|solutionrelative:joinfunctions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{085DB8B0-0D99-85D1-0B8E-93CA767BD15C}|LinkConsole.csproj|d:\\code\\visual studio\\linkconsole\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{085DB8B0-0D99-85D1-0B8E-93CA767BD15C}|LinkConsole.csproj|solutionrelative:student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{085DB8B0-0D99-85D1-0B8E-93CA767BD15C}|LinkConsole.csproj|d:\\code\\visual studio\\linkconsole\\standard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{085DB8B0-0D99-85D1-0B8E-93CA767BD15C}|LinkConsole.csproj|solutionrelative:standard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{085DB8B0-0D99-85D1-0B8E-93CA767BD15C}|LinkConsole.csproj|d:\\code\\visual studio\\linkconsole\\linqstudent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{085DB8B0-0D99-85D1-0B8E-93CA767BD15C}|LinkConsole.csproj|solutionrelative:linqstudent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{87654321-4321-4321-4321-987654321cba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ExtentionMethods.cs",
+              "DocumentMoniker": "D:\\Code\\Visual Studio\\LinkConsole\\ExtentionMethods.cs",
+              "RelativeDocumentMoniker": "ExtentionMethods.cs",
+              "ToolTip": "D:\\Code\\Visual Studio\\LinkConsole\\ExtentionMethods.cs*",
+              "RelativeToolTip": "ExtentionMethods.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-16T08:55:50.467Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "LinqStudent.cs",
+              "DocumentMoniker": "D:\\Code\\Visual Studio\\LinkConsole\\LinqStudent.cs",
+              "RelativeDocumentMoniker": "LinqStudent.cs",
+              "ToolTip": "D:\\Code\\Visual Studio\\LinkConsole\\LinqStudent.cs",
+              "RelativeToolTip": "LinqStudent.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-16T06:13:18.931Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MoreLinqFunctions.cs",
+              "DocumentMoniker": "D:\\Code\\Visual Studio\\LinkConsole\\MoreLinqFunctions.cs",
+              "RelativeDocumentMoniker": "MoreLinqFunctions.cs",
+              "ToolTip": "D:\\Code\\Visual Studio\\LinkConsole\\MoreLinqFunctions.cs",
+              "RelativeToolTip": "MoreLinqFunctions.cs",
+              "ViewState": "AgIAAEMAAAAAAAAAAAAgwE4AAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-16T05:44:03.767Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Standard.cs",
+              "DocumentMoniker": "D:\\Code\\Visual Studio\\LinkConsole\\Standard.cs",
+              "RelativeDocumentMoniker": "Standard.cs",
+              "ToolTip": "D:\\Code\\Visual Studio\\LinkConsole\\Standard.cs",
+              "RelativeToolTip": "Standard.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAkAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-16T04:27:36.439Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "JoinFunctions.cs",
+              "DocumentMoniker": "D:\\Code\\Visual Studio\\LinkConsole\\JoinFunctions.cs",
+              "RelativeDocumentMoniker": "JoinFunctions.cs",
+              "ToolTip": "D:\\Code\\Visual Studio\\LinkConsole\\JoinFunctions.cs",
+              "RelativeToolTip": "JoinFunctions.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-16T04:52:30.791Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Student.cs",
+              "DocumentMoniker": "D:\\Code\\Visual Studio\\LinkConsole\\Student.cs",
+              "RelativeDocumentMoniker": "Student.cs",
+              "ToolTip": "D:\\Code\\Visual Studio\\LinkConsole\\Student.cs",
+              "RelativeToolTip": "Student.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAYAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-13T09:26:47.498Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Code\\Visual Studio\\LinkConsole\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "D:\\Code\\Visual Studio\\LinkConsole\\Program.cs*",
+              "RelativeToolTip": "Program.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-13T09:22:19.325Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

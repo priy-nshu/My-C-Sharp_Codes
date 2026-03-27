@@ -1,0 +1,14 @@
+D:\Code\Visual Studio\CustomerOrderService\bin\Debug\net8.0\CustomerOrderService.exe
+D:\Code\Visual Studio\CustomerOrderService\bin\Debug\net8.0\CustomerOrderService.deps.json
+D:\Code\Visual Studio\CustomerOrderService\bin\Debug\net8.0\CustomerOrderService.runtimeconfig.json
+D:\Code\Visual Studio\CustomerOrderService\bin\Debug\net8.0\CustomerOrderService.dll
+D:\Code\Visual Studio\CustomerOrderService\bin\Debug\net8.0\CustomerOrderService.pdb
+D:\Code\Visual Studio\CustomerOrderService\obj\Debug\net8.0\CustomerOrderService.GeneratedMSBuildEditorConfig.editorconfig
+D:\Code\Visual Studio\CustomerOrderService\obj\Debug\net8.0\CustomerOrderService.AssemblyInfoInputs.cache
+D:\Code\Visual Studio\CustomerOrderService\obj\Debug\net8.0\CustomerOrderService.AssemblyInfo.cs
+D:\Code\Visual Studio\CustomerOrderService\obj\Debug\net8.0\CustomerOrderService.csproj.CoreCompileInputs.cache
+D:\Code\Visual Studio\CustomerOrderService\obj\Debug\net8.0\CustomerOrderService.dll
+D:\Code\Visual Studio\CustomerOrderService\obj\Debug\net8.0\refint\CustomerOrderService.dll
+D:\Code\Visual Studio\CustomerOrderService\obj\Debug\net8.0\CustomerOrderService.pdb
+D:\Code\Visual Studio\CustomerOrderService\obj\Debug\net8.0\CustomerOrderService.genruntimeconfig.cache
+D:\Code\Visual Studio\CustomerOrderService\obj\Debug\net8.0\ref\CustomerOrderService.dll

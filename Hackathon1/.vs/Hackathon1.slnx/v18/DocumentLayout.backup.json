@@ -1,0 +1,181 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Code\\Visual Studio\\Hackathon1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{73E74B5C-8DF0-414F-BF11-DADE6B4629C5}|Hackathon1.csproj|d:\\code\\visual studio\\hackathon1\\moviedatastore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{73E74B5C-8DF0-414F-BF11-DADE6B4629C5}|Hackathon1.csproj|solutionrelative:moviedatastore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73E74B5C-8DF0-414F-BF11-DADE6B4629C5}|Hackathon1.csproj|d:\\code\\visual studio\\hackathon1\\booking.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{73E74B5C-8DF0-414F-BF11-DADE6B4629C5}|Hackathon1.csproj|solutionrelative:booking.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73E74B5C-8DF0-414F-BF11-DADE6B4629C5}|Hackathon1.csproj|d:\\code\\visual studio\\hackathon1\\movie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{73E74B5C-8DF0-414F-BF11-DADE6B4629C5}|Hackathon1.csproj|solutionrelative:movie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73E74B5C-8DF0-414F-BF11-DADE6B4629C5}|Hackathon1.csproj|d:\\code\\visual studio\\hackathon1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{73E74B5C-8DF0-414F-BF11-DADE6B4629C5}|Hackathon1.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73E74B5C-8DF0-414F-BF11-DADE6B4629C5}|Hackathon1.csproj|d:\\code\\visual studio\\hackathon1\\exceptionhandling.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{73E74B5C-8DF0-414F-BF11-DADE6B4629C5}|Hackathon1.csproj|solutionrelative:exceptionhandling.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73E74B5C-8DF0-414F-BF11-DADE6B4629C5}|Hackathon1.csproj|d:\\code\\visual studio\\hackathon1\\show.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{73E74B5C-8DF0-414F-BF11-DADE6B4629C5}|Hackathon1.csproj|solutionrelative:show.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73E74B5C-8DF0-414F-BF11-DADE6B4629C5}|Hackathon1.csproj|d:\\code\\visual studio\\hackathon1\\theatre.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{73E74B5C-8DF0-414F-BF11-DADE6B4629C5}|Hackathon1.csproj|solutionrelative:theatre.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73E74B5C-8DF0-414F-BF11-DADE6B4629C5}|Hackathon1.csproj|d:\\code\\visual studio\\hackathon1\\logindetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{73E74B5C-8DF0-414F-BF11-DADE6B4629C5}|Hackathon1.csproj|solutionrelative:logindetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73E74B5C-8DF0-414F-BF11-DADE6B4629C5}|Hackathon1.csproj|d:\\code\\visual studio\\hackathon1\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{73E74B5C-8DF0-414F-BF11-DADE6B4629C5}|Hackathon1.csproj|solutionrelative:customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{87654321-4321-4321-4321-987654321cba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ExceptionHandling.cs",
+              "DocumentMoniker": "D:\\Code\\Visual Studio\\Hackathon1\\ExceptionHandling.cs",
+              "RelativeDocumentMoniker": "ExceptionHandling.cs",
+              "ToolTip": "D:\\Code\\Visual Studio\\Hackathon1\\ExceptionHandling.cs",
+              "RelativeToolTip": "ExceptionHandling.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAiwA4AAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-20T10:14:26.655Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MovieDataStore.cs",
+              "DocumentMoniker": "D:\\Code\\Visual Studio\\Hackathon1\\MovieDataStore.cs",
+              "RelativeDocumentMoniker": "MovieDataStore.cs",
+              "ToolTip": "D:\\Code\\Visual Studio\\Hackathon1\\MovieDataStore.cs",
+              "RelativeToolTip": "MovieDataStore.cs",
+              "ViewState": "AgIAACUAAAAAAAAAAAAwwC8AAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-20T06:29:51.459Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Booking.cs",
+              "DocumentMoniker": "D:\\Code\\Visual Studio\\Hackathon1\\Booking.cs",
+              "RelativeDocumentMoniker": "Booking.cs",
+              "ToolTip": "D:\\Code\\Visual Studio\\Hackathon1\\Booking.cs*",
+              "RelativeToolTip": "Booking.cs*",
+              "ViewState": "AgIAABMAAAAAAAAAAAAwwCkAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-20T06:06:37.916Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Show.cs",
+              "DocumentMoniker": "D:\\Code\\Visual Studio\\Hackathon1\\Show.cs",
+              "RelativeDocumentMoniker": "Show.cs",
+              "ToolTip": "D:\\Code\\Visual Studio\\Hackathon1\\Show.cs",
+              "RelativeToolTip": "Show.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAgwBMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-20T05:54:35.466Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Customer.cs",
+              "DocumentMoniker": "D:\\Code\\Visual Studio\\Hackathon1\\Customer.cs",
+              "RelativeDocumentMoniker": "Customer.cs",
+              "ToolTip": "D:\\Code\\Visual Studio\\Hackathon1\\Customer.cs",
+              "RelativeToolTip": "Customer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-20T05:37:11.936Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "LoginDetails.cs",
+              "DocumentMoniker": "D:\\Code\\Visual Studio\\Hackathon1\\LoginDetails.cs",
+              "RelativeDocumentMoniker": "LoginDetails.cs",
+              "ToolTip": "D:\\Code\\Visual Studio\\Hackathon1\\LoginDetails.cs",
+              "RelativeToolTip": "LoginDetails.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAA+wCYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-20T04:47:59.239Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Movie.cs",
+              "DocumentMoniker": "D:\\Code\\Visual Studio\\Hackathon1\\Movie.cs",
+              "RelativeDocumentMoniker": "Movie.cs",
+              "ToolTip": "D:\\Code\\Visual Studio\\Hackathon1\\Movie.cs",
+              "RelativeToolTip": "Movie.cs",
+              "ViewState": "AgIAACoAAAAAAAAAAAAIwBwAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-20T04:47:38.349Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Theatre.cs",
+              "DocumentMoniker": "D:\\Code\\Visual Studio\\Hackathon1\\Theatre.cs",
+              "RelativeDocumentMoniker": "Theatre.cs",
+              "ToolTip": "D:\\Code\\Visual Studio\\Hackathon1\\Theatre.cs",
+              "RelativeToolTip": "Theatre.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAA6wBgAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-20T04:47:45.954Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Code\\Visual Studio\\Hackathon1\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "D:\\Code\\Visual Studio\\Hackathon1\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAI4AAAAAAAAAAAAQwF8AAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-20T04:41:59.678Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

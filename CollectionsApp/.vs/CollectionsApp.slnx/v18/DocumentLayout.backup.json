@@ -1,0 +1,163 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Code\\Visual Studio\\CollectionsApp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{AB6D2F10-226F-41FA-A784-D879D8C6BC96}|..\\NUnitTest_CollectionApp\\NUnitTest_CollectionApp.csproj|d:\\code\\visual studio\\nunittest_collectionapp\\myqueue_test.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A5A4BB4B-A9F1-577D-D828-152D9287E8C5}|CollectionsApp.csproj|d:\\code\\visual studio\\collectionsapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A5A4BB4B-A9F1-577D-D828-152D9287E8C5}|CollectionsApp.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A5A4BB4B-A9F1-577D-D828-152D9287E8C5}|CollectionsApp.csproj|d:\\code\\visual studio\\collectionsapp\\myqueue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A5A4BB4B-A9F1-577D-D828-152D9287E8C5}|CollectionsApp.csproj|solutionrelative:myqueue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A5A4BB4B-A9F1-577D-D828-152D9287E8C5}|CollectionsApp.csproj|d:\\code\\visual studio\\collectionsapp\\mystack.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A5A4BB4B-A9F1-577D-D828-152D9287E8C5}|CollectionsApp.csproj|solutionrelative:mystack.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A5A4BB4B-A9F1-577D-D828-152D9287E8C5}|CollectionsApp.csproj|d:\\code\\visual studio\\collectionsapp\\assignment1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A5A4BB4B-A9F1-577D-D828-152D9287E8C5}|CollectionsApp.csproj|solutionrelative:assignment1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A5A4BB4B-A9F1-577D-D828-152D9287E8C5}|CollectionsApp.csproj|d:\\code\\visual studio\\collectionsapp\\invalidstudentnameexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A5A4BB4B-A9F1-577D-D828-152D9287E8C5}|CollectionsApp.csproj|solutionrelative:invalidstudentnameexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A5A4BB4B-A9F1-577D-D828-152D9287E8C5}|CollectionsApp.csproj|d:\\code\\visual studio\\collectionsapp\\genericlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A5A4BB4B-A9F1-577D-D828-152D9287E8C5}|CollectionsApp.csproj|solutionrelative:genericlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A5A4BB4B-A9F1-577D-D828-152D9287E8C5}|CollectionsApp.csproj|d:\\code\\visual studio\\collectionsapp\\mysortedlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A5A4BB4B-A9F1-577D-D828-152D9287E8C5}|CollectionsApp.csproj|solutionrelative:mysortedlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{87654321-4321-4321-4321-987654321cba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MyQueue_Test.cs",
+              "DocumentMoniker": "D:\\Code\\Visual Studio\\NUnitTest_CollectionApp\\MyQueue_Test.cs",
+              "RelativeDocumentMoniker": "..\\NUnitTest_CollectionApp\\MyQueue_Test.cs",
+              "ToolTip": "D:\\Code\\Visual Studio\\NUnitTest_CollectionApp\\MyQueue_Test.cs",
+              "RelativeToolTip": "..\\NUnitTest_CollectionApp\\MyQueue_Test.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAawBYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-18T11:26:01.728Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Assignment1.cs",
+              "DocumentMoniker": "D:\\Code\\Visual Studio\\CollectionsApp\\Assignment1.cs",
+              "RelativeDocumentMoniker": "Assignment1.cs",
+              "ToolTip": "D:\\Code\\Visual Studio\\CollectionsApp\\Assignment1.cs",
+              "RelativeToolTip": "Assignment1.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAA+wAsAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-13T05:13:29.224Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MyQueue.cs",
+              "DocumentMoniker": "D:\\Code\\Visual Studio\\CollectionsApp\\MyQueue.cs",
+              "RelativeDocumentMoniker": "MyQueue.cs",
+              "ToolTip": "D:\\Code\\Visual Studio\\CollectionsApp\\MyQueue.cs",
+              "RelativeToolTip": "MyQueue.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAQwBYAAABAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-13T05:02:30.62Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MyStack.cs",
+              "DocumentMoniker": "D:\\Code\\Visual Studio\\CollectionsApp\\MyStack.cs",
+              "RelativeDocumentMoniker": "MyStack.cs",
+              "ToolTip": "D:\\Code\\Visual Studio\\CollectionsApp\\MyStack.cs",
+              "RelativeToolTip": "MyStack.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACUAAABNAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-13T04:38:35.41Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "MysortedList.cs",
+              "DocumentMoniker": "D:\\Code\\Visual Studio\\CollectionsApp\\MysortedList.cs",
+              "RelativeDocumentMoniker": "MysortedList.cs",
+              "ToolTip": "D:\\Code\\Visual Studio\\CollectionsApp\\MysortedList.cs",
+              "RelativeToolTip": "MysortedList.cs",
+              "ViewState": "AgIAADcAAAAAAAAAAAAQwD8AAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-12T09:17:48.542Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "GenericList.cs",
+              "DocumentMoniker": "D:\\Code\\Visual Studio\\CollectionsApp\\GenericList.cs",
+              "RelativeDocumentMoniker": "GenericList.cs",
+              "ToolTip": "D:\\Code\\Visual Studio\\CollectionsApp\\GenericList.cs",
+              "RelativeToolTip": "GenericList.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAQwEMAAABBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-12T07:24:06.656Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Code\\Visual Studio\\CollectionsApp\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "D:\\Code\\Visual Studio\\CollectionsApp\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-12T06:40:05.819Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "InvalidStudentNameException.cs",
+              "DocumentMoniker": "D:\\Code\\Visual Studio\\CollectionsApp\\InvalidStudentNameException.cs",
+              "RelativeDocumentMoniker": "InvalidStudentNameException.cs",
+              "ToolTip": "D:\\Code\\Visual Studio\\CollectionsApp\\InvalidStudentNameException.cs",
+              "RelativeToolTip": "InvalidStudentNameException.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAswCkAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-13T06:28:12.379Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

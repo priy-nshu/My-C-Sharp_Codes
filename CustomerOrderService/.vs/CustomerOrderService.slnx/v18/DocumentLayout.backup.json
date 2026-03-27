@@ -1,0 +1,161 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Code\\Visual Studio\\CustomerOrderService\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{322BD288-E05A-42AC-B5E9-9648B83E2BB7}|..\\NUnitForCustomerOrderService\\NUnitForCustomerOrderService.csproj|d:\\code\\visual studio\\nunitforcustomerorderservice\\customerorderservicetest2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{57E469A6-C1CA-49E2-AE42-54170090B180}|CustomerOrderService.csproj|d:\\code\\visual studio\\customerorderservice\\mynumber.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{57E469A6-C1CA-49E2-AE42-54170090B180}|CustomerOrderService.csproj|solutionrelative:mynumber.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{57E469A6-C1CA-49E2-AE42-54170090B180}|CustomerOrderService.csproj|d:\\code\\visual studio\\customerorderservice\\customerordersvc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{57E469A6-C1CA-49E2-AE42-54170090B180}|CustomerOrderService.csproj|solutionrelative:customerordersvc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{57E469A6-C1CA-49E2-AE42-54170090B180}|CustomerOrderService.csproj|d:\\code\\visual studio\\customerorderservice\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{57E469A6-C1CA-49E2-AE42-54170090B180}|CustomerOrderService.csproj|solutionrelative:customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{322BD288-E05A-42AC-B5E9-9648B83E2BB7}|..\\NUnitForCustomerOrderService\\NUnitForCustomerOrderService.csproj|d:\\code\\visual studio\\nunitforcustomerorderservice\\customerorderservicetest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{57E469A6-C1CA-49E2-AE42-54170090B180}|CustomerOrderService.csproj|d:\\code\\visual studio\\customerorderservice\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{57E469A6-C1CA-49E2-AE42-54170090B180}|CustomerOrderService.csproj|solutionrelative:order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{322BD288-E05A-42AC-B5E9-9648B83E2BB7}|..\\NUnitForCustomerOrderService\\NUnitForCustomerOrderService.csproj|d:\\code\\visual studio\\nunitforcustomerorderservice\\customertest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{57E469A6-C1CA-49E2-AE42-54170090B180}|CustomerOrderService.csproj|d:\\code\\visual studio\\customerorderservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{57E469A6-C1CA-49E2-AE42-54170090B180}|CustomerOrderService.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MyNumber.cs",
+              "DocumentMoniker": "D:\\Code\\Visual Studio\\CustomerOrderService\\MyNumber.cs",
+              "RelativeDocumentMoniker": "MyNumber.cs",
+              "ToolTip": "D:\\Code\\Visual Studio\\CustomerOrderService\\MyNumber.cs",
+              "RelativeToolTip": "MyNumber.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAA6wBYAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-18T10:49:14.941Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CustomerOrderServiceTest2.cs",
+              "DocumentMoniker": "D:\\Code\\Visual Studio\\NUnitForCustomerOrderService\\CustomerOrderServiceTest2.cs",
+              "RelativeDocumentMoniker": "..\\NUnitForCustomerOrderService\\CustomerOrderServiceTest2.cs",
+              "ToolTip": "D:\\Code\\Visual Studio\\NUnitForCustomerOrderService\\CustomerOrderServiceTest2.cs",
+              "RelativeToolTip": "..\\NUnitForCustomerOrderService\\CustomerOrderServiceTest2.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAA8wCUAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-18T10:33:34.273Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Order.cs",
+              "DocumentMoniker": "D:\\Code\\Visual Studio\\CustomerOrderService\\Order.cs",
+              "RelativeDocumentMoniker": "Order.cs",
+              "ToolTip": "D:\\Code\\Visual Studio\\CustomerOrderService\\Order.cs",
+              "RelativeToolTip": "Order.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-18T07:17:55.228Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CustomerOrderServiceTest.cs",
+              "DocumentMoniker": "D:\\Code\\Visual Studio\\NUnitForCustomerOrderService\\CustomerOrderServiceTest.cs",
+              "RelativeDocumentMoniker": "..\\NUnitForCustomerOrderService\\CustomerOrderServiceTest.cs",
+              "ToolTip": "D:\\Code\\Visual Studio\\NUnitForCustomerOrderService\\CustomerOrderServiceTest.cs",
+              "RelativeToolTip": "..\\NUnitForCustomerOrderService\\CustomerOrderServiceTest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-18T08:55:59.042Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{87654321-4321-4321-4321-987654321cba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CustomerOrderSvc.cs",
+              "DocumentMoniker": "D:\\Code\\Visual Studio\\CustomerOrderService\\CustomerOrderSvc.cs",
+              "RelativeDocumentMoniker": "CustomerOrderSvc.cs",
+              "ToolTip": "D:\\Code\\Visual Studio\\CustomerOrderService\\CustomerOrderSvc.cs",
+              "RelativeToolTip": "CustomerOrderSvc.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAqwBwAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-18T07:15:11.557Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Customer.cs",
+              "DocumentMoniker": "D:\\Code\\Visual Studio\\CustomerOrderService\\Customer.cs",
+              "RelativeDocumentMoniker": "Customer.cs",
+              "ToolTip": "D:\\Code\\Visual Studio\\CustomerOrderService\\Customer.cs",
+              "RelativeToolTip": "Customer.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAwBAAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-18T06:38:31.512Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "CustomerTest.cs",
+              "DocumentMoniker": "D:\\Code\\Visual Studio\\NUnitForCustomerOrderService\\CustomerTest.cs",
+              "RelativeDocumentMoniker": "..\\NUnitForCustomerOrderService\\CustomerTest.cs",
+              "ToolTip": "D:\\Code\\Visual Studio\\NUnitForCustomerOrderService\\CustomerTest.cs",
+              "RelativeToolTip": "..\\NUnitForCustomerOrderService\\CustomerTest.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAAhwCQAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-18T06:44:17.55Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Code\\Visual Studio\\CustomerOrderService\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "D:\\Code\\Visual Studio\\CustomerOrderService\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-18T06:35:30.894Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

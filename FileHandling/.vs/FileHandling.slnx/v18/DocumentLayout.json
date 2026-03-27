@@ -1,0 +1,157 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Code\\Visual Studio\\FileHandling\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{82823AA3-CFC7-BBC5-C521-D19E54D2F293}|FileHandling.csproj|d:\\code\\visual studio\\filehandling\\filefunctions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{82823AA3-CFC7-BBC5-C521-D19E54D2F293}|FileHandling.csproj|solutionrelative:filefunctions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82823AA3-CFC7-BBC5-C521-D19E54D2F293}|FileHandling.csproj|d:\\code\\visual studio\\filehandling\\cfilehandling.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{82823AA3-CFC7-BBC5-C521-D19E54D2F293}|FileHandling.csproj|solutionrelative:cfilehandling.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82823AA3-CFC7-BBC5-C521-D19E54D2F293}|FileHandling.csproj|d:\\code\\visual studio\\filehandling\\processbussinesslogic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{82823AA3-CFC7-BBC5-C521-D19E54D2F293}|FileHandling.csproj|solutionrelative:processbussinesslogic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82823AA3-CFC7-BBC5-C521-D19E54D2F293}|FileHandling.csproj|d:\\code\\visual studio\\filehandling\\mysubscription.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{82823AA3-CFC7-BBC5-C521-D19E54D2F293}|FileHandling.csproj|solutionrelative:mysubscription.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82823AA3-CFC7-BBC5-C521-D19E54D2F293}|FileHandling.csproj|d:\\code\\visual studio\\filehandling\\systemdelegates.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{82823AA3-CFC7-BBC5-C521-D19E54D2F293}|FileHandling.csproj|solutionrelative:systemdelegates.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82823AA3-CFC7-BBC5-C521-D19E54D2F293}|FileHandling.csproj|d:\\code\\visual studio\\filehandling\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{82823AA3-CFC7-BBC5-C521-D19E54D2F293}|FileHandling.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82823AA3-CFC7-BBC5-C521-D19E54D2F293}|FileHandling.csproj|d:\\code\\visual studio\\filehandling\\multicastdelegate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{82823AA3-CFC7-BBC5-C521-D19E54D2F293}|FileHandling.csproj|solutionrelative:multicastdelegate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82823AA3-CFC7-BBC5-C521-D19E54D2F293}|FileHandling.csproj|d:\\code\\visual studio\\filehandling\\genericdelegates.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{82823AA3-CFC7-BBC5-C521-D19E54D2F293}|FileHandling.csproj|solutionrelative:genericdelegates.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{87654321-4321-4321-4321-987654321cba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "FileFunctions.cs",
+              "DocumentMoniker": "D:\\Code\\Visual Studio\\FileHandling\\FileFunctions.cs",
+              "RelativeDocumentMoniker": "FileFunctions.cs",
+              "ToolTip": "D:\\Code\\Visual Studio\\FileHandling\\FileFunctions.cs",
+              "RelativeToolTip": "FileFunctions.cs",
+              "ViewState": "AgIAAGcAAAAAAAAAAAAkwHkAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-18T11:19:09.648Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CFileHandling.cs",
+              "DocumentMoniker": "D:\\Code\\Visual Studio\\FileHandling\\CFileHandling.cs",
+              "RelativeDocumentMoniker": "CFileHandling.cs",
+              "ToolTip": "D:\\Code\\Visual Studio\\FileHandling\\CFileHandling.cs",
+              "RelativeToolTip": "CFileHandling.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAACwAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-18T11:19:04.102Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MySubscription.cs",
+              "DocumentMoniker": "D:\\Code\\Visual Studio\\FileHandling\\MySubscription.cs",
+              "RelativeDocumentMoniker": "MySubscription.cs",
+              "ToolTip": "D:\\Code\\Visual Studio\\FileHandling\\MySubscription.cs",
+              "RelativeToolTip": "MySubscription.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-17T11:24:00.727Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ProcessBussinessLogic.cs",
+              "DocumentMoniker": "D:\\Code\\Visual Studio\\FileHandling\\ProcessBussinessLogic.cs",
+              "RelativeDocumentMoniker": "ProcessBussinessLogic.cs",
+              "ToolTip": "D:\\Code\\Visual Studio\\FileHandling\\ProcessBussinessLogic.cs",
+              "RelativeToolTip": "ProcessBussinessLogic.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-17T11:18:51.573Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "SystemDelegates.cs",
+              "DocumentMoniker": "D:\\Code\\Visual Studio\\FileHandling\\SystemDelegates.cs",
+              "RelativeDocumentMoniker": "SystemDelegates.cs",
+              "ToolTip": "D:\\Code\\Visual Studio\\FileHandling\\SystemDelegates.cs",
+              "RelativeToolTip": "SystemDelegates.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACkAAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-17T09:47:19.702Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "MultiCastDelegate.cs",
+              "DocumentMoniker": "D:\\Code\\Visual Studio\\FileHandling\\MultiCastDelegate.cs",
+              "RelativeDocumentMoniker": "MultiCastDelegate.cs",
+              "ToolTip": "D:\\Code\\Visual Studio\\FileHandling\\MultiCastDelegate.cs",
+              "RelativeToolTip": "MultiCastDelegate.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAQwBwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-17T06:04:17.643Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "GenericDelegates.cs",
+              "DocumentMoniker": "D:\\Code\\Visual Studio\\FileHandling\\GenericDelegates.cs",
+              "RelativeDocumentMoniker": "GenericDelegates.cs",
+              "ToolTip": "D:\\Code\\Visual Studio\\FileHandling\\GenericDelegates.cs",
+              "RelativeToolTip": "GenericDelegates.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-17T05:20:24.592Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Code\\Visual Studio\\FileHandling\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "D:\\Code\\Visual Studio\\FileHandling\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-16T09:45:11.921Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

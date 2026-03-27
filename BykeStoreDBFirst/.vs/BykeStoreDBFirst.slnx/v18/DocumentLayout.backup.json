@@ -1,0 +1,61 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Code\\Visual Studio\\BykeStoreDBFirst\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{794C4B51-91F6-2E78-51E5-E0CA5F5C22A4}|..\\BykeStoreConsoleApp\\BykeStoreConsoleApp.csproj|d:\\code\\visual studio\\bykestoreconsoleapp\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7FB6DBBC-38BB-40AB-BA2F-4E56567BD86A}|BykeStoreDBFirst.csproj|d:\\code\\visual studio\\bykestoredbfirst\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7FB6DBBC-38BB-40AB-BA2F-4E56567BD86A}|BykeStoreDBFirst.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{87654321-4321-4321-4321-987654321cba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "App.config",
+              "DocumentMoniker": "D:\\Code\\Visual Studio\\BykeStoreConsoleApp\\App.config",
+              "RelativeDocumentMoniker": "..\\BykeStoreConsoleApp\\App.config",
+              "ToolTip": "D:\\Code\\Visual Studio\\BykeStoreConsoleApp\\App.config",
+              "RelativeToolTip": "..\\BykeStoreConsoleApp\\App.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAACKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2026-03-25T04:50:01.241Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Code\\Visual Studio\\BykeStoreDBFirst\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "D:\\Code\\Visual Studio\\BykeStoreDBFirst\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-25T04:41:40.116Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
