@@ -1,0 +1,14 @@
+D:\Code\Visual Studio\Hackathon1\bin\Debug\net8.0\Hackathon1.exe
+D:\Code\Visual Studio\Hackathon1\bin\Debug\net8.0\Hackathon1.deps.json
+D:\Code\Visual Studio\Hackathon1\bin\Debug\net8.0\Hackathon1.runtimeconfig.json
+D:\Code\Visual Studio\Hackathon1\bin\Debug\net8.0\Hackathon1.dll
+D:\Code\Visual Studio\Hackathon1\bin\Debug\net8.0\Hackathon1.pdb
+D:\Code\Visual Studio\Hackathon1\obj\Debug\net8.0\Hackathon1.GeneratedMSBuildEditorConfig.editorconfig
+D:\Code\Visual Studio\Hackathon1\obj\Debug\net8.0\Hackathon1.AssemblyInfoInputs.cache
+D:\Code\Visual Studio\Hackathon1\obj\Debug\net8.0\Hackathon1.AssemblyInfo.cs
+D:\Code\Visual Studio\Hackathon1\obj\Debug\net8.0\Hackathon1.csproj.CoreCompileInputs.cache
+D:\Code\Visual Studio\Hackathon1\obj\Debug\net8.0\Hackathon1.dll
+D:\Code\Visual Studio\Hackathon1\obj\Debug\net8.0\refint\Hackathon1.dll
+D:\Code\Visual Studio\Hackathon1\obj\Debug\net8.0\Hackathon1.pdb
+D:\Code\Visual Studio\Hackathon1\obj\Debug\net8.0\Hackathon1.genruntimeconfig.cache
+D:\Code\Visual Studio\Hackathon1\obj\Debug\net8.0\ref\Hackathon1.dll

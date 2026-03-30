@@ -8,7 +8,11 @@ namespace Hackathon1
 {
     internal class Customer
     {
+<<<<<<< HEAD
 
+=======
+               
+>>>>>>> ca973e6edfc4a47fab7f244dfc44b86289a76d21
         public int CustomerID { get; set; }
         public string CustomerName { get; set; }
 

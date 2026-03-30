@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="../BykeStoreConsoleApp/BykeStoreConsoleApp.csproj" />
+  <Project Path="BykeStoreDBFirst.csproj" />
+</Solution>

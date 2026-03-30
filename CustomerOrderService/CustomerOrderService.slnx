@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="../NUnitForCustomerOrderService/NUnitForCustomerOrderService.csproj" />
+  <Project Path="CustomerOrderService.csproj" />
+</Solution>

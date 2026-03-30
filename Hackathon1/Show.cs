@@ -9,7 +9,11 @@ namespace Hackathon1
     class Show
     {
         private static int nextID = 1000;
+<<<<<<< HEAD
         public int ShowID { get; set; }
+=======
+        public int ShowID { get;  set; }
+>>>>>>> ca973e6edfc4a47fab7f244dfc44b86289a76d21
         public int MovieID { get; set; }
         public int TheatreID { get; set; }
         public DateTime StartDate { get; set; }
@@ -18,7 +22,12 @@ namespace Hackathon1
         public decimal GoldSeatRate { get; set; }
         public decimal SilverSeatRate { get; set; }
 
+<<<<<<< HEAD
         public Show(int movieID, int theatreID, DateTime startDate, DateTime endDate, decimal platinumRate, decimal goldRate, decimal silverRate)
+=======
+        public Show(int movieID, int theatreID, DateTime startDate, DateTime endDate,
+                    decimal platinumRate, decimal goldRate, decimal silverRate)
+>>>>>>> ca973e6edfc4a47fab7f244dfc44b86289a76d21
         {
             this.ShowID = nextID++;
 

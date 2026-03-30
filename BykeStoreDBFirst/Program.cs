@@ -1,4 +1,5 @@
 ﻿// See https://aka.ms/new-console-template for more information
+<<<<<<< HEAD
 using BykeStoreDBFirst.Models;
 using BykeStoreDBFirst.Services;
 
@@ -132,3 +133,6 @@ static void DeleteCustomer()
 }
 
 
+=======
+//Console.WriteLine("Hello, World!");
+>>>>>>> ca973e6edfc4a47fab7f244dfc44b86289a76d21

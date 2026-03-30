@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="../NUnitTest_CollectionApp/NUnitTest_CollectionApp.csproj" Id="ab6d2f10-226f-41fa-a784-d879d8c6bc96" />
+  <Project Path="CollectionsApp.csproj" />
+</Solution>

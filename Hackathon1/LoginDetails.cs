@@ -15,11 +15,16 @@ namespace Hackathon1
         public string Password { get; set; }
         public string LoginType { get; set; }
 
+<<<<<<< HEAD
         public LoginDetails(string password, string loginType)
+=======
+        public LoginDetails( string password, string loginType)
+>>>>>>> ca973e6edfc4a47fab7f244dfc44b86289a76d21
         {
             Password = password;
             LoginType = loginType;
 
+<<<<<<< HEAD
             if (loginType.Equals("Admin", StringComparison.OrdinalIgnoreCase))
             {
                 LoginID = AdminID;
@@ -27,6 +32,14 @@ namespace Hackathon1
             else
             {
                 LoginID = (nextId++).ToString();
+=======
+            if (loginType.Equals("Admin", StringComparison.OrdinalIgnoreCase)) {
+                LoginID = AdminID;            
+            }
+            else
+            {
+                LoginID =(nextId++).ToString();
+>>>>>>> ca973e6edfc4a47fab7f244dfc44b86289a76d21
             }
         }
         public void DisplayLoginDetails()
