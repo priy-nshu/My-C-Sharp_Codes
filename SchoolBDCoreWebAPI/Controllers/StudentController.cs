@@ -22,6 +22,7 @@ namespace SchoolDBCoreWebAPI.Controllers
             this.context = context;
         }
 
+        [AllowAnonymous]
         [HttpGet]
         public ActionResult<List<Student>> GetAllStudents()
         {
