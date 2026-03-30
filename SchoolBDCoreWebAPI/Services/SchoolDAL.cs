@@ -10,7 +10,7 @@ using System.Threading.Tasks;
 
 namespace SchoolDBCoreWebAPI.Services
 {
-    public class SchoolDAL : DbContext
+    public class SchoolDAL
     {
         //public string _ConStr;
         public SchoolDBContext Context;

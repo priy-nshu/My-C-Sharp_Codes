@@ -38,7 +38,19 @@ namespace SchoolDBCoreWebAPI.Controllers
         public ActionResult<int> AddStudents(Student std)
         {
             stDAL = new StudentDAL(context);
-            return stDAL.AddStudent(std);
+            return Ok(stDAL.AddStudent(std));
+        }
+
+        [HttpPut("{stdId}")]
+        public async Task<ActionResult> UpdateStudent(int stdId, Student std)
+        {
+            stDAL =new StudentDAL(context);
+            Student s1 = stDAL.GetStudentById(stdId);
+            if (s1 == null)
+                return NotFound();
+            int result=stDAL.UpdateStudent(std);
+
+            return NoContent();
         }
     }
 }
