@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Http;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using SchoolDBCodeFirstApp.Models;
 using SchoolDBCoreWebAPI.Models;
@@ -8,6 +9,7 @@ namespace SchoolDBCoreWebAPI.Controllers
 {
 
     [Route("api/[controller]/[Action]")]
+    [Authorize]
     [ApiController]
     public class StudentController : ControllerBase
     {

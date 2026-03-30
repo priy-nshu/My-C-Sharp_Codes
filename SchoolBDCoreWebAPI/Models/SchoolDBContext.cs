@@ -60,7 +60,7 @@ namespace SchoolDBCoreWebAPI.Models
 
             modelBuilder.Entity<User>(entity =>
             {
-                entity.HasKey(e => e.UsertId).HasName("PK__Grade");
+                entity.HasKey(e => e.UsertId).HasName("PK__User");
                 entity.ToTable("users", "School");
 
                 entity.HasData(
