@@ -229,7 +229,11 @@ void ManageMovie()
         var m = dataStore.SearchMovie(id);
         if (m == null) { Console.WriteLine("Movie not found."); return; }
 
+<<<<<<< HEAD
+        Console.Write("New Duration: ");
+=======
         Console.Write("New Duration: "); 
+>>>>>>> ca973e6edfc4a47fab7f244dfc44b86289a76d21
         double.TryParse(Console.ReadLine(), out double dur);
         m.Duration = dur;
         Console.WriteLine("Movie updated.");

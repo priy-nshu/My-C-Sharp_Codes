@@ -46,7 +46,11 @@ namespace Hackathon1
                 if (string.IsNullOrWhiteSpace(line)) continue;
                 var p = line.Split(',');
                 if (p.Length < 9) continue;
+<<<<<<< HEAD
+                var movie = new Movie(p[1], p[2], p[3], p[4], p[5], p[6], double.Parse(p[7]));
+=======
                 var movie = new Movie(p[1], p[2], p[3], p[4], p[5],p[6], double.Parse(p[7]));
+>>>>>>> ca973e6edfc4a47fab7f244dfc44b86289a76d21
                 movie.MovieId = int.Parse(p[0]);
                 Movies.Add(movie);
             }
@@ -121,7 +125,11 @@ namespace Hackathon1
                 foreach (var s in p[8].Trim().Split(';'))
                     if (int.TryParse(s, out int sn)) seatNumbers.Add(sn);
 
+<<<<<<< HEAD
+                var booking = new Booking(int.Parse(p[1]), p[2], int.Parse(p[3]), p[4], p[5]);
+=======
                 var booking = new Booking(int.Parse(p[1]),p[2],int.Parse(p[3]),p[4],p[5]);
+>>>>>>> ca973e6edfc4a47fab7f244dfc44b86289a76d21
                 Bookings.Add(booking);
             }
         }

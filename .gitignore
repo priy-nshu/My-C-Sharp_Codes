@@ -1,12 +1,17 @@
+<<<<<<< HEAD
 # =========================
 # Visual Studio
 # =========================
+=======
+# Visual Studio
+>>>>>>> b1cea44c285f842ee8750eb45bd3e965555035ab
 .vs/
 *.suo
 *.user
 *.userosscache
 *.sln.docstates
 
+<<<<<<< HEAD
 # =========================
 # Build results
 # =========================
@@ -16,6 +21,13 @@ obj/
 # =========================
 # .NET / Runtime artifacts
 # =========================
+=======
+# Build results
+bin/
+obj/
+
+# .NET
+>>>>>>> b1cea44c285f842ee8750eb45bd3e965555035ab
 *.dll
 *.exe
 *.pdb
@@ -23,6 +35,7 @@ obj/
 *.deps.json
 *.runtimeconfig.json
 
+<<<<<<< HEAD
 # =========================
 # Test results
 # =========================
@@ -31,5 +44,11 @@ TestResults/
 # =========================
 # Databases / VS
 # =========================
+=======
+# Test results
+TestResults/
+
+# Databases / VS
+>>>>>>> b1cea44c285f842ee8750eb45bd3e965555035ab
 *.sqlite
 *.db

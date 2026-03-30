@@ -13,7 +13,11 @@ namespace Hackathon1
         public string MovieName { get; set; }
         public string DirectorName { get; set; }
         public string ProducerName { get; set; }
+<<<<<<< HEAD
+        public string Story { get; set; }
+=======
         public string Story {  get; set; }
+>>>>>>> ca973e6edfc4a47fab7f244dfc44b86289a76d21
         public string Genre { get; set; }
 
         public string Language { get; set; }
@@ -24,8 +28,13 @@ namespace Hackathon1
 
 
 
+<<<<<<< HEAD
+        public Movie(string movieName, string directorName, string producerName, string story, string genre,
+                    string language, double duration)
+=======
         public Movie( string movieName, string directorName, string producerName, string story, string genre,
                     string language,double duration)
+>>>>>>> ca973e6edfc4a47fab7f244dfc44b86289a76d21
         {
             bool langValid = false;
             foreach (var lang in ValidLanguages)

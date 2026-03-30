@@ -43,7 +43,11 @@ namespace Hackathon1
             {
                 SeatNumbers.Add(i);
             }
+<<<<<<< HEAD
+            decimal seatTemp = seatType.ToLower() == "platinum" ? 200m : seatType.ToLower() == "gold" ? 150m : 100m;
+=======
             decimal seatTemp = seatType.ToLower() == "platinum" ? 500m : seatType.ToLower() == "gold" ? 400m : 350m;
+>>>>>>> ca973e6edfc4a47fab7f244dfc44b86289a76d21
             this.Amount = this.NumberOfSeats * seatTemp;
         }
         public void DisplayBookingDetails()
