@@ -2,6 +2,11 @@
 using IdentityAutheticationWebAPI.Models;
 using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Identity;
+using Microsoft.EntityFrameworkCore;
+using Microsoft.IdentityModel.Tokens;
+using System.IdentityModel.Tokens.Jwt;
+using System.Security.Claims;
+using System.Text;
 
 namespace IdentityAutheticationWebAPI.Services
 {
@@ -56,7 +61,51 @@ namespace IdentityAutheticationWebAPI.Services
 
         public async Task<(int ,string)> Login(LoginModel model)
         {
-            return (0, "Not Implemented");
+            var user =await userManager.FindByEmailAsync(model.Email);
+            var users = await context.Users.FirstOrDefaultAsync(u=>u.Email==model.Email);
+
+         
+            Console.WriteLine(string.Join(", ", user));
+
+            if (user == null)
+                return (0, "Invalid username");
+            if (!await userManager.CheckPasswordAsync(user, model.Password)) return (0, "Invalid Password");
+
+            var userRoles = await userManager.GetRolesAsync(user);
+            Console.WriteLine(string.Join(", ", userRoles));
+
+            var authClaims = new List<Claim>
+            {
+                new Claim(ClaimTypes.Name,user.UserName),
+                new Claim(ClaimTypes.NameIdentifier,users.UsertId.ToString()),
+                new Claim(JwtRegisteredClaimNames.Jti, Guid.NewGuid().ToString())
+            };
+
+            foreach(var userRole in userRoles)
+            {
+                authClaims.Add(new Claim(ClaimTypes.Role, userRole));
+            }
+            string token= GenerateToken(authClaims);
+            return (1, token);
+        }
+
+        private string GenerateToken(IEnumerable<Claim> claims) {
+            Console.WriteLine(claims);
+            var authSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(configuration["JWT:Secret"]));
+
+            var tokenDescriptor = new SecurityTokenDescriptor
+            {
+                Issuer = configuration["JWT:ValidIssuer"],
+                Audience = configuration["JWT:ValidAudience"],
+                Expires = DateTime.UtcNow.AddHours(3),
+                SigningCredentials = new SigningCredentials(authSigningKey, SecurityAlgorithms.HmacSha256),
+                Subject = new ClaimsIdentity(claims),
+            };
+
+            Console.WriteLine(tokenDescriptor);
+            var tokenHander = new JwtSecurityTokenHandler();
+            var token=tokenHander.CreateToken(tokenDescriptor);
+            return tokenHander.WriteToken(token);
         }
     }
 }

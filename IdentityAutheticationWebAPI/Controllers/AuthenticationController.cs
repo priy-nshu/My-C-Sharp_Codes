@@ -62,8 +62,28 @@ namespace IdentityAutheticationWebAPI.Controllers
                 }
 
             }
-            catch (Exception ex) { 
+            catch (Exception) { 
                 throw;
+            }
+        }
+
+        [HttpPost]
+        [Route("login")]
+        public async Task<IActionResult> Login(LoginModel model)
+        {
+            try
+            {
+                if (!ModelState.IsValid)
+                    return BadRequest(new { Status = "Error", Message = "Invalid Payload" });
+                var (status, message) = await _authService.Login(model);
+                if (status == 0)
+                    return BadRequest(new { Status = "Error ", Message = message });
+                return Ok(new { Status = "Success", token = message });
+            }
+            catch (Exception ex)
+            {
+                _logger.LogError(ex.Message);
+                return StatusCode(StatusCodes.Status500InternalServerError, ex.Message);
             }
         }
     }
