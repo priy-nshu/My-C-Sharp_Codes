@@ -46,6 +46,10 @@ builder.Services.AddSwaggerGen(c=>
 builder.Services.AddDbContext<SchoolDBContext>(options =>
                                     options.UseSqlServer(builder.Configuration.GetConnectionString("SchoolCon")));
 
+//------------------------CORS------------------------
+
+builder.Services.AddCors();
+
 var app = builder.Build(); //gives webapp object
 
 // Configure the HTTP request pipeline.
@@ -53,6 +57,13 @@ var app = builder.Build(); //gives webapp object
 app.UseHttpsRedirection();
 
 app.UseAuthorization();
+
+app.UseCors(builder =>
+{
+    builder.AllowAnyOrigin()
+           .AllowAnyMethod()
+           .AllowAnyHeader();
+});
 
 if (app.Environment.IsDevelopment())
 {
