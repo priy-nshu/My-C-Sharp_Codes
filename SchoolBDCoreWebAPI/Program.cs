@@ -70,6 +70,7 @@ var app = builder.Build(); //gives webapp object
 
 app.UseHttpsRedirection();
 
+app.UseAuthentication();
 app.UseAuthorization();
 
 app.UseCors(builder =>
