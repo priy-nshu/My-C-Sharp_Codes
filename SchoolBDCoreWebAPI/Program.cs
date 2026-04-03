@@ -2,12 +2,22 @@ using Microsoft.AspNetCore.Authentication;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.OpenApi.Models;
 using SchoolDBCoreWebAPI.Models;
+using SchoolDBCoreWebAPI.Services;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 
-builder.Services.AddControllers();
+builder.Services.AddControllers()
+    .AddJsonOptions(options =>
+    {
+        //For CamelCase(default for JSON in .net
+        //options.JsonSerializerOptions.PropertyNamingPolicy = JsonNamingPolicy.CamelCase;
+
+        //For PascalCase (matches C# property names)
+        options.JsonSerializerOptions.PropertyNamingPolicy = null;
+    });
+
 builder.Services.AddAuthentication("BasicAuthentication")
     .AddScheme<AuthenticationSchemeOptions, BasicAutheticationHandler>(
         "BasicAuthentication", options => { }
@@ -45,10 +55,14 @@ builder.Services.AddSwaggerGen(c=>
    });
 builder.Services.AddDbContext<SchoolDBContext>(options =>
                                     options.UseSqlServer(builder.Configuration.GetConnectionString("SchoolCon")));
+builder.Services.AddScoped<SchoolDAL>();
 
 //------------------------CORS------------------------
 
 builder.Services.AddCors();
+
+
+//----------------------------------------BUILDING------------------------------
 
 var app = builder.Build(); //gives webapp object
 

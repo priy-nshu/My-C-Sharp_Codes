@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Cors;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using SchoolDBCodeFirstApp.Models;
@@ -9,8 +10,8 @@ namespace SchoolDBCoreWebAPI.Controllers
 {
 
     [Route("api/[controller]/[Action]")]
-    [Authorize]
     [ApiController]
+    [EnableCors]
     public class StudentController : ControllerBase
     {
         public StudentDAL stDAL;
