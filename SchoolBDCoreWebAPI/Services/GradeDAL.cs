@@ -35,5 +35,27 @@ namespace SchoolDBCoreWebAPI.Services
                 throw ex;
             }
         }
+
+        public void AddGrade(Grade grade)
+        {
+            Context.Grades.Add(grade);
+            Context.SaveChanges();
+        }
+
+        public void UpdateGrade(Grade grade)
+        {
+            Context.Entry(grade).State = Microsoft.EntityFrameworkCore.EntityState.Modified;
+            Context.SaveChanges();
+        }
+
+        public void DeleteGrade(int grdId)
+        {
+            var grade = Context.Grades.Find(grdId);
+            if (grade != null)
+            {
+                Context.Grades.Remove(grade);
+                Context.SaveChanges();
+            }
+        }
     }
 }

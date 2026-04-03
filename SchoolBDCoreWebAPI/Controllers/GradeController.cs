@@ -31,5 +31,27 @@ namespace SchoolDBCoreWebAPI.Controllers
             grDAL = new GradeDAL(context);
             return grDAL.GetGradeById(gradeId);
         }
+
+        [HttpPost]
+        public IActionResult Post(Grade grade)
+        {
+            grDAL.AddGrade(grade);
+            return Ok(new { message = "Successfully Added" });
+        }
+
+        [HttpPut]
+        public IActionResult Put(Grade grade)
+        {
+            grDAL.UpdateGrade(grade);
+            return Ok(new { message = "Successfully Updated" });
+        }
+
+        [HttpDelete("{id}")]
+        public IActionResult Delete(int id)
+        {
+            grDAL.DeleteGrade(id);
+            return Ok(new { message = "Successfully Deleted" });
+        }
     }
 }
+
