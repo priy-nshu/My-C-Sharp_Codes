@@ -28,6 +28,10 @@ namespace MyCoreWebAPP.Controllers
             return Content("<script> alert('Hi! I am Priyanshu')</script", "text/html");
         }
 
+        public FileResult MyFile()
+        {
+            return File("~/Files/text.txt", "text/plain");
+        }
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()

@@ -1,0 +1,15 @@
+
+        public IActionResult Privacy()
+        {
+            return View();
+        }
+
+        public ContentResult MyContent()
+        {
+            return Content("<script> alert('Hi! I am Priyanshu')</script", "text/html");
+        }
+
+        public FileResult MyFile()
+        {
+            return File("~/Files/text.txt", "text/plain");
+        }
