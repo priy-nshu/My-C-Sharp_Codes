@@ -1,0 +1,9 @@
+# Force text files to use LF in repo
+* text=auto eol=lf
+
+# Treat minified/vendor files as binary (no line ending warnings)
+*.min.js  -text
+*.min.css -text
+
+# Vendor libraries
+wwwroot/lib/** -text
