@@ -6,7 +6,7 @@ using SchoolDBCoreWebAPI.Services;
 
 namespace SchoolDBCoreWebAPI.Controllers
 {
-    [Route("api/[controller]")]
+    [Route("api/[controller]/[action]")]
     [ApiController]
     public class GradeController : ControllerBase
     {

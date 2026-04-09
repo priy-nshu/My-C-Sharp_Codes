@@ -1,13 +1,17 @@
 using Microsoft.EntityFrameworkCore;
 using MyCoreWebAPP.Models;
+using MyCoreWebAPP.Services;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
+builder.Services.AddTransient<IGradeService, GradeService>();
+
 builder.Services.AddDbContext<SchoolDBContext>(options =>
                                     options.UseSqlServer(builder.Configuration.GetConnectionString("SchoolCon")));
 
+builder.Services.AddHttpClient();
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
