@@ -3,7 +3,7 @@ using Newtonsoft.Json;
 
 namespace MyCoreWebAPP.Services
 {
-    public class GradeService:  IGradeService
+    public class GradeService: IGradeService
     {
         private readonly IHttpClientFactory httpClient;
         private readonly string baseUrl = "https://localhost:7133/api/Grade/";
@@ -36,7 +36,29 @@ namespace MyCoreWebAPP.Services
             return grades;
         }
 
+        public async Task<int> AddGrade(Grade grade)
+        {
+            var client = httpClient.CreateClient();
+            client.BaseAddress = new Uri(baseUrl);
 
+            try
+            {
+                var response = await client.PostAsJsonAsync($"addgrade",grade);
+                response.EnsureSuccessStatusCode();//throws exception if not successful
+
+                ////Read the respone content
+                //string json = await response.Content.ReadAsStringAsync();
+                ////Deserilizes the respone
+                //int result = JsonConvert.DeserializeObject<int>(json);
+
+                return 1;
+            }
+            catch (HttpRequestException ex)
+            {
+                throw ex;
+            }
+
+        }
 
     }
 }

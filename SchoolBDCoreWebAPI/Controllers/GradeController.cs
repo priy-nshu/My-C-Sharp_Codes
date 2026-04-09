@@ -12,12 +12,13 @@ namespace SchoolDBCoreWebAPI.Controllers
     {
         public GradeDAL grDAL;
         public SchoolDBContext context;
+        
 
         public GradeController(SchoolDBContext context)
         {
             this.context = context;
-        }
 
+        }
         [HttpGet]
         public ActionResult<List<Grade>> GetAllGrades()
         {
@@ -33,22 +34,25 @@ namespace SchoolDBCoreWebAPI.Controllers
         }
 
         [HttpPost]
-        public IActionResult Post(Grade grade)
+        public IActionResult AddGrade(Grade grade)
         {
+            grDAL = new GradeDAL(context);
             grDAL.AddGrade(grade);
             return Ok(new { message = "Successfully Added" });
         }
 
         [HttpPut]
-        public IActionResult Put(Grade grade)
+        public IActionResult UpdateGrade(Grade grade)
         {
+            grDAL = new GradeDAL(context);
             grDAL.UpdateGrade(grade);
             return Ok(new { message = "Successfully Updated" });
         }
 
         [HttpDelete("{id}")]
-        public IActionResult Delete(int id)
+        public IActionResult DeleteGrade(int id)
         {
+            grDAL = new GradeDAL(context);
             grDAL.DeleteGrade(id);
             return Ok(new { message = "Successfully Deleted" });
         }

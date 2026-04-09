@@ -11,7 +11,7 @@ namespace MyCoreWebAPP.Models
 
         //these two below make the foriegn key 
         public int GradeId { get; set; }
-        public virtual Grade grade { get; set; }
+        public virtual Grade? grade { get; set; }
 
     }
 }

@@ -14,7 +14,7 @@ namespace MyCoreWebAPP.Models
             public string Section { get; set; } = null!;
             public string? Description { get; set; }
 
-            public ICollection<Student> Students { get; set; }
+            public ICollection<Student>? Students { get; set; }
 
         }
     }
