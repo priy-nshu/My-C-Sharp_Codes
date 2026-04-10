@@ -6,7 +6,11 @@ using System.Threading.Tasks;
 
 namespace DesignPatterns.AbstractFactory
 {
-    internal class DarkCheckBox
+    public class DarkCheckBox:ICheckbox
     {
+        public void Render()
+        {
+            Console.WriteLine("Rendering a dark-themed checkbox");
+        }
     }
 }

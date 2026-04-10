@@ -1,4 +1,5 @@
 ﻿// See https://aka.ms/new-console-template for more information
+using DesignPatterns.AbstractFactory;
 using DesignPatterns.Factory;
 using DesignPatterns.Singleton;
 
@@ -58,14 +59,43 @@ static void getFactory()
 static void ArrFactory()
 {
     VehicleFactory factory = new VehicleFactory();
-    IVehicle[] vehicle = new IVehicle[2];
+   IVehicle[] vehicle = new IVehicle[] {factory.CreateVehicle("car"),  factory.CreateVehicle("truck") };
 
-    vehicle[0] = factory.CreateVehicle("car");
-    vehicle[1] = factory.CreateVehicle("truck");
-
-    foreach(var item in vehicle)
+    foreach (var item in vehicle)
     {
         item.DisplayInfo();
     }
 }
-ArrFactory();
+//ArrFactory();
+
+static void getAbstract() { 
+
+    IUIFactory factory;
+
+    do
+    {
+        Console.WriteLine("\nSelect Theme:");
+        Console.WriteLine("1. Light Theme");
+        Console.WriteLine("2. Dark Theme");
+        Console.Write("Enter choice: ");
+
+        int choice = Convert.ToInt32(Console.ReadLine());
+
+        if (choice == 1)
+        {
+            factory = new LightThemedFactory();
+        }
+        else if (choice == 2)
+        {
+            factory = new DarkThemedFactory();
+        }
+        else
+        {
+            Console.WriteLine("Invalid choice");
+            return;
+        }
+        AbstractFactoryClient client = new AbstractFactoryClient(factory);
+        client.Run();
+    } while (true);            
+}
+getAbstract();

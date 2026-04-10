@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace DesignPatterns.AbstractFactory
 {
-    internal interface ICheckbox
+    public interface ICheckbox
     {
+        void Render();
     }
 }

@@ -6,7 +6,11 @@ using System.Threading.Tasks;
 
 namespace DesignPatterns.AbstractFactory
 {
-    internal class DarkButton
+    public class DarkButton :IButton
     {
+        public void Render()
+        {
+            Console.WriteLine("Rendering a dark-themed button");
+        }
     }
 }

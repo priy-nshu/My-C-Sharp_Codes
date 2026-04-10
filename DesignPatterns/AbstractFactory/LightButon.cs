@@ -6,7 +6,11 @@ using System.Threading.Tasks;
 
 namespace DesignPatterns.AbstractFactory
 {
-    internal class LightButon
+    public class LightButon :IButton
     {
+        public void Render()
+        {
+            Console.WriteLine("Rendering a light-themed button");
+        }
     }
 }

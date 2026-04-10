@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace DesignPatterns.AbstractFactory
 {
-    internal interface IButton
+    public interface IButton
     {
+        void Render();
     }
 }

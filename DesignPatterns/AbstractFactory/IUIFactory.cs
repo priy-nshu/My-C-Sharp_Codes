@@ -6,11 +6,9 @@ using System.Threading.Tasks;
 
 namespace DesignPatterns.AbstractFactory
 {
-    public class LightCheckBox :ICheckbox
+    public interface IUIFactory
     {
-        public void Render()
-        {
-            Console.WriteLine("Rendering a light-themed checkbox");
-        }
+        IButton CreateButton();
+        ICheckbox CreateCheckBox();
     }
 }
