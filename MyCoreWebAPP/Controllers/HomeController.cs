@@ -12,6 +12,7 @@ namespace MyCoreWebAPP.Controllers
         public HomeController(ILogger<HomeController> logger)
         {
             _logger = logger;
+            ViewBag.Admin = "admin";
         }
 
         public IActionResult Index()

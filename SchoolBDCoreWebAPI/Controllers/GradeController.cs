@@ -30,7 +30,7 @@ namespace SchoolDBCoreWebAPI.Controllers
         public ActionResult<Grade> GetGradeById(int gradeId)
         {
             grDAL = new GradeDAL(context);
-            return grDAL.GetGradeById(gradeId);
+            return Ok(grDAL.GetGradeById(gradeId));
         }
 
         [HttpPost]
