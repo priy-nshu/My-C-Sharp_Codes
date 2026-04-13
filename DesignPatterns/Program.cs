@@ -1,6 +1,9 @@
 ﻿// See https://aka.ms/new-console-template for more information
 using DesignPatterns.AbstractFactory;
+using DesignPatterns.Bridge;
+using DesignPatterns.Builder;
 using DesignPatterns.Factory;
+using DesignPatterns.Observer;
 using DesignPatterns.Singleton;
 
 Console.WriteLine("Hello World");
@@ -9,7 +12,7 @@ static void GetSingleton()
     var s1=MySingleton.getInstance();
     var s2=MySingleton.getInstance();
     var s3=MySingleton.getInstance();
-}
+}//GetSingleton
 
 static void getFactory()
 {
@@ -98,4 +101,77 @@ static void getAbstract() {
         client.Run();
     } while (true);            
 }
-getAbstract();
+//getAbstract();
+
+static void BuildMyCar()
+{
+    ICarBuilder builder = new CarBuilder();
+
+    Car myCar = builder
+        .SetEngine("Some Maruti")
+        .SetColor("Tamarind")
+        .SetWheels(14)
+        .SetSeats(7)
+        .Build();
+
+    myCar.display();
+}//BuildMyCar();
+
+static void MyObserver()
+{
+    Subject RedMI = new Subject("RedMI ", 10000, " Out Of Stock");
+
+    Observer user1 = new Observer("Priyanshu");
+    Observer user2 = new Observer("Akshay");
+    Observer user3 = new Observer("Pratyasha");
+
+    user1.AddSubscriber(RedMI);
+    user2.AddSubscriber(RedMI);
+    user3.AddSubscriber(RedMI);
+
+    Console.WriteLine("RedMI mobile current state: " + RedMI.GetAvailabilty());
+    Console.WriteLine();
+
+    user3.RemoveObserver(RedMI);
+
+    RedMI.setAvailibility(" Available");
+    Console.Read();
+}//MyObserver();
+
+    static void MyBridge()
+    {
+
+        Console.WriteLine("Select TV Brand:");
+        Console.WriteLine("1. Samsung");
+        Console.WriteLine("2. Sony");
+        Console.Write("Enter choice: ");
+
+        int choice = Convert.ToInt32(Console.ReadLine());
+
+        AbstractRemoteControl remote;
+
+        switch (choice)
+        {
+            case 1:
+                var samsungTv = new SamsungLEDTv();
+                remote = new SamsungRemoteControl(samsungTv);
+                break;
+
+            case 2:
+                var sonyTv = new SonyLEDTv();
+                remote = new SonyRemoteControl(sonyTv);
+                break;
+
+            default:
+                Console.WriteLine("Invalid choice");
+                return;
+        }
+
+        // ✅ Use remote
+        remote.SwitchOn();
+        remote.SetChannel(101);
+        remote.SwitchOff();
+
+        Console.ReadLine();
+    }
+MyBridge();
