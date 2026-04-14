@@ -67,12 +67,12 @@ public partial class OrderDBContext : DbContext
 
         modelBuilder.Entity<OrderItem>(entity =>
         {
-            entity.HasKey(e => new { e.OrderId, e.ItemId }).HasName("PK__order_it__837942D479E34F2F");
+            entity.HasKey(e => new { e.OrderId, e.OrderItemId }).HasName("PK__order_it__837942D479E34F2F");
 
             entity.ToTable("order_items", "SALES");
 
+            entity.Property(e => e.OrderItemId).HasColumnName("Orderitem_id");
             entity.Property(e => e.OrderId).HasColumnName("order_id");
-            entity.Property(e => e.ItemId).HasColumnName("item_id");
             entity.Property(e => e.Discount)
                 .HasColumnType("decimal(4, 2)")
                 .HasColumnName("discount");

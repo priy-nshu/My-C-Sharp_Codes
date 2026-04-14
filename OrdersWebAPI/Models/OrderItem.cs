@@ -5,9 +5,8 @@ namespace OrdersWebAPI.Models;
 
 public partial class OrderItem
 {
+    public int OrderItemId { get; set; }
     public int OrderId { get; set; }
-
-    public int ItemId { get; set; }
 
     public int ProductId { get; set; }
 
@@ -15,7 +14,7 @@ public partial class OrderItem
 
     public decimal ListPrice { get; set; }
 
-    public decimal Discount { get; set; }
+    public decimal? Discount { get; set; }
 
     public virtual Order Order { get; set; } = null!;
 

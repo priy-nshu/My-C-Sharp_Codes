@@ -39,16 +39,17 @@ namespace OrdersWebAPI.Migrations
                 schema: "SALES",
                 columns: table => new
                 {
+                    Orderitem_id = table.Column<int>(type: "int", nullable: false)
+                                        .Annotation("SqlServer:Identity", "1, 1"),
                     order_id = table.Column<int>(type: "int", nullable: false),
-                    item_id = table.Column<int>(type: "int", nullable: false),
                     product_id = table.Column<int>(type: "int", nullable: false),
                     quantity = table.Column<int>(type: "int", nullable: false),
                     list_price = table.Column<decimal>(type: "decimal(10,2)", nullable: false),
-                    discount = table.Column<decimal>(type: "decimal(4,2)", nullable: false)
+                    discount = table.Column<decimal>(type: "decimal(4,2)", nullable: true)
                 },
                 constraints: table =>
                 {
-                    table.PrimaryKey("PK__order_it__837942D479E34F2F", x => new { x.order_id, x.item_id });
+                    table.PrimaryKey("PK__order_it__837942D479E34F2F", x => new { x.order_id, x.Orderitem_id });
                     table.ForeignKey(
                         name: "FK__order_ite__order__619B8048",
                         column: x => x.order_id,

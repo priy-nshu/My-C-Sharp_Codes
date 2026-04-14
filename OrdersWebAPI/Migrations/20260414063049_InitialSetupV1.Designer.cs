@@ -12,7 +12,7 @@ using OrdersWebAPI.Models;
 namespace OrdersWebAPI.Migrations
 {
     [DbContext(typeof(OrderDBContext))]
-    [Migration("20260414042041_InitialSetupV1")]
+    [Migration("20260414063049_InitialSetupV1")]
     partial class InitialSetupV1
     {
         /// <inheritdoc />
@@ -76,11 +76,11 @@ namespace OrdersWebAPI.Migrations
                         .HasColumnType("int")
                         .HasColumnName("order_id");
 
-                    b.Property<int>("ItemId")
+                    b.Property<int>("OrderItemId")
                         .HasColumnType("int")
-                        .HasColumnName("item_id");
+                        .HasColumnName("Orderitem_id");
 
-                    b.Property<decimal>("Discount")
+                    b.Property<decimal?>("Discount")
                         .HasColumnType("decimal(4, 2)")
                         .HasColumnName("discount");
 
@@ -96,7 +96,7 @@ namespace OrdersWebAPI.Migrations
                         .HasColumnType("int")
                         .HasColumnName("quantity");
 
-                    b.HasKey("OrderId", "ItemId")
+                    b.HasKey("OrderId", "OrderItemId")
                         .HasName("PK__order_it__837942D479E34F2F");
 
                     b.ToTable("order_items", "SALES");

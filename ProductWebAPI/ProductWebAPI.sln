@@ -5,6 +5,10 @@ VisualStudioVersion = 17.11.35327.3
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OrdersWebAPI", "..\OrdersWebAPI\OrdersWebAPI.csproj", "{807D7D52-F04E-49BF-9148-74C780CB13CA}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProductWebAPI", "ProductWebAPI.csproj", "{550334A3-AFD1-4C61-9BB7-564143745148}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BykeStoreGateWayAPI", "..\BykeStoreGateWayAPI\BykeStoreGateWayAPI.csproj", "{34A75FE7-46A1-4623-AE79-59FCE3B6EAC6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{807D7D52-F04E-49BF-9148-74C780CB13CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{807D7D52-F04E-49BF-9148-74C780CB13CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{807D7D52-F04E-49BF-9148-74C780CB13CA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{550334A3-AFD1-4C61-9BB7-564143745148}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{550334A3-AFD1-4C61-9BB7-564143745148}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{550334A3-AFD1-4C61-9BB7-564143745148}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{550334A3-AFD1-4C61-9BB7-564143745148}.Release|Any CPU.Build.0 = Release|Any CPU
+		{34A75FE7-46A1-4623-AE79-59FCE3B6EAC6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{34A75FE7-46A1-4623-AE79-59FCE3B6EAC6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{34A75FE7-46A1-4623-AE79-59FCE3B6EAC6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{34A75FE7-46A1-4623-AE79-59FCE3B6EAC6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

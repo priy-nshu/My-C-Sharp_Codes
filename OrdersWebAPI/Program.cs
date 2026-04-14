@@ -13,6 +13,7 @@ builder.Services.AddTransient<IOrderService, OrderService>();
 //builder.Services.AddSingleton<IBrandService, BrandService>();//Once per code
 builder.Services.AddControllers();
 builder.Services.AddSwaggerGen();
+builder.Services.AddHttpClient();  
 
 var app = builder.Build();
 
