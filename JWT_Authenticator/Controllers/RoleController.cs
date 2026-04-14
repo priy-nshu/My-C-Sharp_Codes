@@ -8,7 +8,6 @@ namespace JWT_Authenticator.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    // Applying your UserRoles knowledge: Only Admins can manage roles
     [Authorize(Roles = UserRoles.Admin)]
     public class RoleController : ControllerBase
     {

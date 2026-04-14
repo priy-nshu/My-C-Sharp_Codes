@@ -14,7 +14,7 @@ builder.Services.AddControllers();
 
 // 1. Add DB Context
 builder.Services.AddDbContext<JWT_DBContext>(options =>
-    options.UseSqlServer(builder.Configuration.GetConnectionString("TBD")));
+    options.UseSqlServer(builder.Configuration.GetConnectionString("AuthCon")));
 
 // 2. Add Identity (STRICTLY IdentityUser and IdentityRole)
 builder.Services.AddIdentity<IdentityUser, IdentityRole>()
@@ -44,6 +44,7 @@ builder.Services.AddAuthentication(options =>
         IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(builder.Configuration["JWT:Secret"]))
     };
 });
+builder.Services.AddAuthorization();
 
 // 5. Swagger UI Setup for JWT Testing
 builder.Services.AddEndpointsApiExplorer();

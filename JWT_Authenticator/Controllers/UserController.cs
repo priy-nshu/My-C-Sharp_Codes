@@ -8,7 +8,7 @@ namespace JWT_Authenticator.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    [Authorize] // Requires JWT Token
+    [Authorize] 
     public class UserController : ControllerBase
     {
         private readonly UserManager<IdentityUser> _userManager;
@@ -19,7 +19,6 @@ namespace JWT_Authenticator.Controllers
         }
 
         [HttpGet]
-        // Applying your UserRoles knowledge: Multiple roles allowed
         [Authorize(Roles = UserRoles.Admin + "," + UserRoles.Manager)]
         public async Task<IActionResult> GetUsers()
         {
@@ -52,7 +51,7 @@ namespace JWT_Authenticator.Controllers
         }
 
         [HttpDelete("{id}")]
-        [Authorize(Roles = UserRoles.Admin)] // Only Admins can delete users
+        [Authorize(Roles = UserRoles.Admin)] 
         public async Task<IActionResult> DeleteUser(string id)
         {
             var user = await _userManager.FindByIdAsync(id);
