@@ -1,4 +1,4 @@
-namespace IdentityWebAPI_1
+namespace JWT_Authenticator
 {
     public class WeatherForecast
     {
