@@ -31,15 +31,15 @@ jobs:
 
       - name: Restore
         working-directory: SchoolBDCoreWebAPI
-        run: dotnet restore SchoolBDCoreWebAPI.csproj
+        run: dotnet restore SchoolDBCoreWebAPI.csproj
 
       - name: Build
         working-directory: SchoolBDCoreWebAPI
-        run: dotnet build SchoolBDCoreWebAPI.csproj -c Release --no-restore
+        run: dotnet build SchoolDBCoreWebAPI.csproj -c Release --no-restore
 
       - name: Publish
         working-directory: SchoolBDCoreWebAPI
-        run: dotnet publish SchoolBDCoreWebAPI.csproj -c Release -o ${{ env.DOTNET_ROOT }}/myapp --no-build
+        run: dotnet publish SchoolDBCoreWebAPI.csproj -c Release -o ${{ env.DOTNET_ROOT }}/myapp --no-build
 
       - name: Upload artifact
         uses: actions/upload-artifact@v4
