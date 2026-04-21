@@ -1,9 +1,9 @@
 {
   "ExpandedNodes": [
     "",
-    "\\GACLibrary",
-    "\\MyClassLibrary"
+    "\\NUnitForCustomerOrderService",
+    "\\SchoolDBCodeFirstApp"
   ],
-  "SelectedNode": "\\GACLibrary",
+  "SelectedNode": "\\NUnitForCustomerOrderService\\CustomerTest.cs",
   "PreviewInSolutionExplorer": false
 }
