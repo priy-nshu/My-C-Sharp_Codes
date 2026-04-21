@@ -39,13 +39,13 @@ jobs:
 
       - name: Publish
         working-directory: SchoolBDCoreWebAPI
-        run: dotnet publish SchoolDBCoreWebAPI.csproj -c Release -o ${{ env.DOTNET_ROOT }}/myapp --no-build
+        run: dotnet publish SchoolDBCoreWebAPI.csproj -c Release -o "${{ env.DOTNET_ROOT }}/myapp" --no-build
 
       - name: Upload artifact
         uses: actions/upload-artifact@v4
         with:
           name: .net-app
-          path: ${{ env.DOTNET_ROOT }}/myapp
+          path: "${{ env.DOTNET_ROOT }}/myapp"
 
 
   deploy:
