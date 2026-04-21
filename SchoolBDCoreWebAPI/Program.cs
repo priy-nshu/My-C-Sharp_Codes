@@ -54,7 +54,7 @@ builder.Services.AddSwaggerGen(c=>
 });
    });
 builder.Services.AddDbContext<SchoolDBContext>(options =>
-                                    options.UseSqlServer(builder.Configuration.GetConnectionString("SchoolCon")));
+                                    options.UseSqlServer(builder.Configuration.GetConnectionString("AzureSchoolCon")));
 builder.Services.AddScoped<SchoolDAL>();
 
 //------------------------CORS------------------------

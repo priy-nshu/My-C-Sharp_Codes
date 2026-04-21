@@ -13,7 +13,7 @@ namespace SchoolDBCodeFirstApp.Models
         [Key]
         public int Studentid { get; set; }
         public string Name { get; set; } = null!;
-        public string RollNumber { get; set; } = null!;
+        //public string RollNumber { get; set; } = null!;
 
         //these two below make the foriengn key 
         public int GradeId { get; set; }
