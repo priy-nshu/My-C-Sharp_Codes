@@ -24,15 +24,15 @@ jobs:
           dotnet-version: '8.x'
 
       - name: Restore
-        working-directory: SchoolBDCoreWebAPI
+        working-directory: My-C-Sharp_Codes/SchoolBDCoreWebAPI
         run: dotnet restore SchoolBDCoreWebAPI.csproj
 
       - name: Build
-        working-directory: SchoolBDCoreWebAPI
+        working-directory: My-C-Sharp_Codes/SchoolBDCoreWebAPI
         run: dotnet build SchoolBDCoreWebAPI.csproj -c Release --no-restore
 
       - name: Publish
-        working-directory: SchoolBDCoreWebAPI
+        working-directory: My-C-Sharp_Codes/SchoolBDCoreWebAPI
         run: dotnet publish SchoolBDCoreWebAPI.csproj -c Release -o ${{ env.DOTNET_ROOT }}/myapp --no-build
 
       - name: Upload artifact
