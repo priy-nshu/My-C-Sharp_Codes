@@ -24,19 +24,23 @@ jobs:
           dotnet-version: '8.x'
 
       - name: Restore
-        run: dotnet restore SchoolBDCoreWebAPI/SchoolBDCoreWebAPI.csproj
+        working-directory: SchoolBDCoreWebAPI
+        run: dotnet restore SchoolBDCoreWebAPI.csproj
 
       - name: Build
-        run: dotnet build SchoolBDCoreWebAPI/SchoolBDCoreWebAPI.csproj -c Release --no-restore
+        working-directory: SchoolBDCoreWebAPI
+        run: dotnet build SchoolBDCoreWebAPI.csproj -c Release --no-restore
 
       - name: Publish
-        run: dotnet publish SchoolBDCoreWebAPI/SchoolBDCoreWebAPI.csproj -c Release -o ${{ env.DOTNET_ROOT }}/myapp --no-build
+        working-directory: SchoolBDCoreWebAPI
+        run: dotnet publish SchoolBDCoreWebAPI.csproj -c Release -o ${{ env.DOTNET_ROOT }}/myapp --no-build
 
       - name: Upload artifact
         uses: actions/upload-artifact@v4
         with:
           name: .net-app
           path: ${{ env.DOTNET_ROOT }}/myapp
+
 
   deploy:
     runs-on: windows-latest
