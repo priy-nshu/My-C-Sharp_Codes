@@ -1,9 +1,10 @@
 {
   "ExpandedNodes": [
     "",
-    "\\NUnitForCustomerOrderService",
+    "\\.github\\workflows",
+    "\\DockerWebAPI",
     "\\SchoolDBCodeFirstApp"
   ],
-  "SelectedNode": "\\NUnitForCustomerOrderService\\CustomerTest.cs",
+  "SelectedNode": "\\DockerWebAPI\\DockerWebAPI.slnx",
   "PreviewInSolutionExplorer": false
 }
