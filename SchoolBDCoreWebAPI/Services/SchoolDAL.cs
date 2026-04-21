@@ -39,11 +39,11 @@ namespace SchoolDBCoreWebAPI.Services
 
 
 
-        public StdWithNameAndRoll GetStudentNameAndRollById(int stdId)
-        {
-            Student std = Context.Students.FirstOrDefault(s => s.Studentid == stdId);
-            return new StdWithNameAndRoll { StudentName = std.Name, RollNumber = std.RollNumber };
-        }
+        //public StdWithNameAndRoll GetStudentNameAndRollById(int stdId)
+        //{
+        //    Student std = Context.Students.FirstOrDefault(s => s.Studentid == stdId);
+        //    return new StdWithNameAndRoll { StudentName = std.Name, RollNumber = std.RollNumber };
+        //}
 
         public List<Student> GetAllStudentsWithGrade()
         {
