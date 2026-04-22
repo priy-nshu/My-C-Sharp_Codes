@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "D:\\Code\\Visual Studio\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Code\\Visual Studio\\JWT_Authenticator\\JWT_Authenticator.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:JWT_Authenticator\\JWT_Authenticator.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Code\\Visual Studio\\SchoolBDCoreWebAPI\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:SchoolBDCoreWebAPI\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
@@ -63,19 +67,32 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "JWT_Authenticator.csproj",
+              "DocumentMoniker": "D:\\Code\\Visual Studio\\JWT_Authenticator\\JWT_Authenticator.csproj",
+              "RelativeDocumentMoniker": "JWT_Authenticator\\JWT_Authenticator.csproj",
+              "ToolTip": "D:\\Code\\Visual Studio\\JWT_Authenticator\\JWT_Authenticator.csproj",
+              "RelativeToolTip": "JWT_Authenticator\\JWT_Authenticator.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-04-21T11:36:21.037Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "appsettings.json",
               "DocumentMoniker": "D:\\Code\\Visual Studio\\SchoolBDCoreWebAPI\\appsettings.json",
               "RelativeDocumentMoniker": "SchoolBDCoreWebAPI\\appsettings.json",
               "ToolTip": "D:\\Code\\Visual Studio\\SchoolBDCoreWebAPI\\appsettings.json",
               "RelativeToolTip": "SchoolBDCoreWebAPI\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAOAQAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2026-04-21T05:59:41.278Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "main_gitschoolwebapi.yml",
               "DocumentMoniker": "D:\\Code\\Visual Studio\\.github\\workflows\\main_gitschoolwebapi.yml",
               "RelativeDocumentMoniker": ".github\\workflows\\main_gitschoolwebapi.yml",
@@ -83,12 +100,11 @@
               "RelativeToolTip": ".github\\workflows\\main_gitschoolwebapi.yml",
               "ViewState": "AgIAAAoAAAAAAAAAAAAAABoAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003775|",
-              "WhenOpened": "2026-04-21T05:23:09.291Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-21T05:23:09.291Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "MyNumber.cs",
               "DocumentMoniker": "D:\\Code\\Visual Studio\\CustomerOrderService\\MyNumber.cs",
               "RelativeDocumentMoniker": "CustomerOrderService\\MyNumber.cs",
@@ -96,12 +112,11 @@
               "RelativeToolTip": "CustomerOrderService\\MyNumber.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-16T10:57:58.666Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-16T10:57:58.666Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "CustomerOrderSvc.cs",
               "DocumentMoniker": "D:\\Code\\Visual Studio\\CustomerOrderService\\CustomerOrderSvc.cs",
               "RelativeDocumentMoniker": "CustomerOrderService\\CustomerOrderSvc.cs",
@@ -109,12 +124,11 @@
               "RelativeToolTip": "CustomerOrderService\\CustomerOrderSvc.cs",
               "ViewState": "AgIAAAkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-16T10:57:53.812Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-16T10:57:53.812Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\Code\\Visual Studio\\CustomerOrderService\\Program.cs",
               "RelativeDocumentMoniker": "CustomerOrderService\\Program.cs",
@@ -122,12 +136,11 @@
               "RelativeToolTip": "CustomerOrderService\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-16T10:57:47.828Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-16T10:57:47.828Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "CustomerOrderServiceTest2.cs",
               "DocumentMoniker": "D:\\Code\\Visual Studio\\NUnitForCustomerOrderService\\CustomerOrderServiceTest2.cs",
               "RelativeDocumentMoniker": "NUnitForCustomerOrderService\\CustomerOrderServiceTest2.cs",
@@ -135,12 +148,11 @@
               "RelativeToolTip": "NUnitForCustomerOrderService\\CustomerOrderServiceTest2.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-16T10:56:17.814Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-16T10:56:17.814Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "CustomerOrderServiceTest.cs",
               "DocumentMoniker": "D:\\Code\\Visual Studio\\NUnitForCustomerOrderService\\CustomerOrderServiceTest.cs",
               "RelativeDocumentMoniker": "NUnitForCustomerOrderService\\CustomerOrderServiceTest.cs",
@@ -148,12 +160,11 @@
               "RelativeToolTip": "NUnitForCustomerOrderService\\CustomerOrderServiceTest.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-16T10:55:50.331Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-16T10:55:50.331Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "CustomerTest.cs",
               "DocumentMoniker": "D:\\Code\\Visual Studio\\NUnitForCustomerOrderService\\CustomerTest.cs",
               "RelativeDocumentMoniker": "NUnitForCustomerOrderService\\CustomerTest.cs",
@@ -161,12 +172,11 @@
               "RelativeToolTip": "NUnitForCustomerOrderService\\CustomerTest.cs",
               "ViewState": "AgIAABQAAAAAAAAAAAAkwCkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-16T10:55:44.126Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-16T10:55:44.126Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "Customer.cs",
               "DocumentMoniker": "D:\\Code\\Visual Studio\\CustomerOrderService\\Customer.cs",
               "RelativeDocumentMoniker": "CustomerOrderService\\Customer.cs",
@@ -174,12 +184,11 @@
               "RelativeToolTip": "CustomerOrderService\\Customer.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-16T10:57:44.569Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-16T10:57:44.569Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "GenericTest.cs",
               "DocumentMoniker": "D:\\Code\\Visual Studio\\NUnitForCustomerOrderService\\GenericTest.cs",
               "RelativeDocumentMoniker": "NUnitForCustomerOrderService\\GenericTest.cs",
@@ -187,8 +196,7 @@
               "RelativeToolTip": "NUnitForCustomerOrderService\\GenericTest.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-16T10:56:12.024Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-16T10:56:12.024Z"
             }
           ]
         }

@@ -1,10 +1,9 @@
 {
   "ExpandedNodes": [
     "",
-    "\\.github\\workflows",
-    "\\DockerWebAPI",
+    "\\JWT_Authenticator",
     "\\SchoolDBCodeFirstApp"
   ],
-  "SelectedNode": "\\DockerWebAPI\\DockerWebAPI.slnx",
+  "SelectedNode": "\\JWT_Authenticator\\JWT_Authenticator.sln",
   "PreviewInSolutionExplorer": false
 }
