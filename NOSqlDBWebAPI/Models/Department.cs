@@ -1,7 +1,11 @@
-﻿namespace NOSqlDBWebAPI.Models
+﻿using Newtonsoft.Json;
+using System.Text.Json.Serialization;
+
+namespace NOSqlDBWebAPI.Models
 {
     public class Department
     {
-        public string Name { get; set; }
+        [JsonProperty("name")]
+        public string Name{get; set;}
     }
 }

@@ -1,10 +1,22 @@
-﻿namespace NOSqlDBWebAPI.Models
+﻿using System.Text.Json.Serialization;
+using Newtonsoft.Json;
+
+namespace NOSqlDBWebAPI.Models
 {
+    using Newtonsoft.Json;
+
     public class EmployeeModel
     {
-        public string? EmployeeId { get; set; }
-        public Name? EmployeeName { get; set; }=null;
-        public string? Email {  get; set; }
-        public Department EmpDepartment {  get; set; }
+        [JsonProperty("id")]
+        public string EmployeeId { get; set; }
+
+        [JsonProperty("name")]
+        public Name EmployeeName { get; set; }
+
+        [JsonProperty("email")]
+        public string Email { get; set; }
+
+        [JsonProperty("department")]
+        public Department EmpDepartment { get; set; }
     }
 }

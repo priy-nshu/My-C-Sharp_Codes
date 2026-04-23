@@ -1,8 +1,15 @@
-﻿namespace NOSqlDBWebAPI.Models
+﻿using Newtonsoft.Json;
+using System.Text.Json.Serialization;
+
+namespace NOSqlDBWebAPI.Models
 {
     public class Name
     {
-        public string First { get; set; } = null;
-        public string Last { get; set; } = null;
+        [JsonProperty("first")]
+        public string First { get; set; }
+
+        [JsonProperty("last")]
+        public string Last { get; set; }
+
     }
 }
