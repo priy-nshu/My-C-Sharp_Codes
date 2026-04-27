@@ -1,22 +1,27 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
-namespace BykeStoreConsoleApp.Models
+namespace DockerWebAPI.Models;
+
+public partial class Staff
 {
-    internal class Staff
-    {
-        public int staff_id { get; set; }
-        public string first_name { get; set; }
-        public string last_name { get; set; }
-        public string email { get; set; }
-        public string phone { get; set; }
-        public short active { get; set; }
+    public int StaffId { get; set; }
 
-        public int store_id { get; set; }
+    public string FirstName { get; set; } = null!;
 
-        public int manager_id { get; set; }
-    }
+    public string LastName { get; set; } = null!;
+
+    public string Email { get; set; } = null!;
+
+    public string? Phone { get; set; }
+
+    public byte Active { get; set; }
+
+    public int StoreId { get; set; }
+
+    public int? ManagerId { get; set; }
+
+    public virtual ICollection<Staff> InverseManager { get; set; } = new List<Staff>();
+
+    public virtual Staff? Manager { get; set; }
 }

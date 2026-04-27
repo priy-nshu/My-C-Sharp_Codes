@@ -1,10 +1,11 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+using NUnitTestProductAPI.Models;
 using ProductWebAPI.Models;
 
 namespace NUnitTestProductAPI.Services
 {
-    public class BrandService:IBrandService
+    public class BrandService : IBrandService
     {
         private readonly ProductDBContext _dbContext;
         public BrandService(ProductDBContext productDBContext) {
