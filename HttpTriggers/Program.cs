@@ -12,7 +12,15 @@ var builder = FunctionsApplication.CreateBuilder(args);
 builder.ConfigureFunctionsWebApplication();
 
 builder.Services.AddDbContext<BykeStoresContext>(options =>
-                options.UseSqlServer(builder.Configuration.GetConnectionString("BykeCon")));
+                options.UseSqlServer(builder.Configuration.GetConnectionString("BykeCon"),
+                 sqlServerOptionsAction: sqlOptions =>
+                 {
+                     // Tells EF Core to automatically retry if the database is asleep or drops connection
+                     sqlOptions.EnableRetryOnFailure(
+                         maxRetryCount: 5,
+                         maxRetryDelay: TimeSpan.FromSeconds(30),
+                         errorNumbersToAdd: null);
+                 }));
 builder.Services.AddDbContext<SchoolDBContext>(options =>
                 options.UseSqlServer(builder.Configuration.GetConnectionString("SchoolCon")));
 

@@ -6,7 +6,7 @@
     
   },
   "ConnectionStrings": {
-    "BykeCon": "server=EC2AMAZ-EHR6SVV; Database=BykeStores; Integrated Security=True; Trusted_Connection=True ;TrustServerCertificate=True;",
+    "BykeCon": "Server=tcp:mydatabase123.database.windows.net,1433;Initial Catalog=BykeStores;Persist Security Info=False;User ID=priyanshu;Password=spectacular_007;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;",
     "SchoolCon": "server=EC2AMAZ-EHR6SVV; Database=SchoolDb; Integrated Security=True; Trusted_Connection=True ;TrustServerCertificate=True;",
     "SalesLT": "Server=tcp:mydatabase123.database.windows.net,1433;Initial Catalog=mydatabase;Persist Security Info=False;User ID=priyanshu;Password=spectacular_007;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;"
   }

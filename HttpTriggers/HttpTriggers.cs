@@ -6,6 +6,7 @@ using Microsoft.Azure.Functions.Worker;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Internal;
 using Microsoft.Extensions.Logging;
+using Newtonsoft.Json;
 using System.Text.Json;
 
 namespace HttpTriggers;
@@ -65,8 +66,26 @@ public class HttpTriggers
     {
         _logger.LogInformation("C# HTTP trigger function processed a request.");
         string requestBody = await new StreamReader(req.Body).ReadToEndAsync();
-        var result = JsonSerializer.Deserialize<Customer>(requestBody);
+        var result = System.Text.Json.JsonSerializer.Deserialize<Customer>(requestBody);
         var customers = await customerService.PostCustomers(result);
+        return new OkObjectResult(customers);
+    }
+    [Function("UpdateCustomers")]
+    public async Task<IActionResult> UpdateCustomers([HttpTrigger(AuthorizationLevel.Anonymous, "put", Route = "customers/{id}")] HttpRequest req,int id)
+    {
+        _logger.LogInformation("C# HTTP trigger function processed a request.");
+        string requestBody = await new StreamReader(req.Body).ReadToEndAsync();
+
+        var result = JsonConvert.DeserializeObject<Customer>(requestBody);
+        var customers = await customerService.PutCustomer(Convert.ToInt32(id),result);
+        return new OkObjectResult(customers);
+    }
+    
+    [Function("DeleteCustomers")]
+    public async Task<IActionResult> DeleteCustomers([HttpTrigger(AuthorizationLevel.Anonymous, "delete", Route = "customers/{id}")] HttpRequest req, string id)
+    {
+        _logger.LogInformation("C# HTTP trigger function processed a request.");
+        var customers = await customerService.DeleteCustomers(Convert.ToInt32(id));
         return new OkObjectResult(customers);
     }
 }

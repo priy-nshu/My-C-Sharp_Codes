@@ -24,29 +24,21 @@ namespace HttpTriggers.Services
             return await _context.Customers.FindAsync(id);
         }
 
-        //// PUT: Update customer
-        //public async Task<int> PutCustomer(int id, Customer customer)
-        //{
-        //    if (id != customer.CustomerId)
-        //    {
-        //        return 0; // or throw exception
-        //    }
+        // PUT: Update customer
+        public async Task<int> PutCustomer(int id, Customer customer)
+        {
+           // _context.Entry(customer).State = EntityState.Modified;
+            _context.Update<Customer>(customer);
 
-        //    _context.Entry(customer).State = EntityState.Modified;
-
-        //    try
-        //    {
-        //        return await _context.SaveChangesAsync();
-        //    }
-        //    catch (DbUpdateConcurrencyException)
-        //    {
-        //        if (!await CustomerExists(id))
-        //        {
-        //            return -1; // not found
-        //        }
-        //        throw;
-        //    }
-        //}
+            try
+            {
+                return await _context.SaveChangesAsync();
+            }
+            catch (DbUpdateConcurrencyException)
+            {
+                throw;
+            }
+        }
 
         // POST: Create new customer
         public async Task<Customer> PostCustomers(Customer customer)
@@ -56,18 +48,18 @@ namespace HttpTriggers.Services
             return customer;
         }
 
-        //// DELETE: Remove customer
-        //public async Task<int> DeleteCustomers(int id)
-        //{
-        //    var customer = await _context.Customers.FindAsync(id);
-        //    if (customer == null)
-        //    {
-        //        return 0;
-        //    }
+        // DELETE: Remove customer
+        public async Task<int> DeleteCustomers(int id)
+        {
+            var customer = await _context.Customers.FindAsync(id);
+            if (customer == null)
+            {
+                return 0;
+            }
 
-        //    _context.Customers.Remove(customer);
-        //    return await _context.SaveChangesAsync();
-        //}
+            _context.Customers.Remove(customer);
+            return await _context.SaveChangesAsync();
+        }
 
         //// CHECK: Customer exists
         //public async Task<bool> CustomerExists(int id)
@@ -75,5 +67,5 @@ namespace HttpTriggers.Services
         //    return await _context.Customers.AnyAsync(e => e.CustomerId == id);
         //}
     }
-    }
+}
 

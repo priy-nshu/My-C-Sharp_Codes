@@ -20,6 +20,5 @@ public partial class Staff
     public int StoreId { get; set; }
 
     public int? ManagerId { get; set; }
-    public virtual Staff? Manager { get; set; }
 
 }
